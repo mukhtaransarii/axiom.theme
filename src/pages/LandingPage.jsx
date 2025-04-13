@@ -51,7 +51,7 @@ export default function LandingPage() {
       
       {/* 2nd box */}
       <div className="p-4 flex flex-col lg:flex-row gap-4">
-        <div className="relative w-[400px] h-[400px] mx-auto lg:mx-0">
+        <div className="relative lg:w-[400px] lg:h-[400px] w-[90vw] h-[90vw] mx-auto lg:mx-0">
           <img src="https://plus.unsplash.com/premium_photo-1695161972717-88604b9c5642" className="rounded-2xl w-[75%] absolute" />
           <img src="https://images.unsplash.com/photo-1531421331102-e5124fed6bc0" className="rounded-2xl w-[75%] absolute bottom-0 right-0" />
         </div>
@@ -155,7 +155,7 @@ export default function LandingPage() {
       
       {/*6th cards and Who we are */}
       <div className="my-6 flex flex-col lg:flex-row lg:items-center gap-4">
-        <div className="relative w-[400px] h-[400px] mx-auto lg:mx-0">
+        <div className="relative lg:w-[400px] lg:h-[400px] w-[90vw] h-[90vw]  mx-auto lg:mx-0">
             <img src="https://plus.unsplash.com/premium_photo-1695161972717-88604b9c5642" className="rounded-2xl w-[75%] absolute top-0 right-0" />
             <img src="https://images.unsplash.com/photo-1531421331102-e5124fed6bc0" className="rounded-2xl w-[75%] absolute bottom-0 left-0" />
         </div>
