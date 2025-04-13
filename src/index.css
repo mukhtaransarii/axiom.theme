@@ -1,0 +1,41 @@
+/* Nunito from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Local Fonts */
+@font-face {
+  font-family: 'ClashDisplay-Regular';
+  src: url('/fonts/ClashDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-Medium';
+  src: url('/fonts/ClashDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Grotesk';
+  src: url('../fonts/Grotesk-Bold.woff');
+}
+
+/* Global font for body */
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
